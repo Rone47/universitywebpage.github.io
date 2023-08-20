@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>University Website Design</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/dd439b35b1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html.html">ABOUT</a></li>
+                        <li><a href="course.html.html">COURSES</a></li>
+                        <li><a href="Blog.html.html">BLOG</a></li>
+                        <li><a href="Contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Diploma, Degree & Online Programs For 2023.</h1>
+
+
+        </section>
+
+<!---------Blog Page Content-------->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="Images/certificate.jpg">
+            <h2>Our Diploma, Degree & Online Programs For 2023.</h2>
+            <p>Explore our comprehensive array of diploma, degree, and online programs for 2023, designed to empower learners with cutting-edge education.</p>
+            <br>
+            <p>In anticipation of the upcoming year, we are excited to introduce a diverse range of educational opportunities through our array of diploma, degree, and online programs for 2023. With a commitment to excellence and innovation, we have meticulously crafted these programs to cater to the evolving needs of learners in a rapidly changing world. Each program is a testament to our dedication to providing high-quality education that equips students with the skills and knowledge necessary to succeed in their chosen fields.</p>
+            <br>
+            <p>Our diploma programs offer a focused and specialized educational path that allows students to gain in-depth expertise in a particular subject area. These programs are designed to provide a strong foundation of knowledge and skills that can be immediately applied to real-world situations. Whether it's a diploma in business management, healthcare, or technology, students can expect a curriculum that combines theoretical concepts with practical hands-on experience, ensuring their readiness for a competitive job market.</p>
+            <br>
+            <p>For those seeking a more comprehensive and academically rigorous journey, our degree programs provide an immersive learning experience that spans a broader spectrum of subjects. With a combination of core courses, electives, and opportunities for research or internships, students can tailor their education to align with their passions and career aspirations. Our faculty members, renowned experts in their respective fields, guide and mentor students throughout their academic journey, fostering critical thinking, creativity, and a holistic understanding of their chosen discipline.</p>
+            <br>
+            <p>Recognizing the evolving landscape of education, we also offer a variety of online programs for 2023. These programs provide the flexibility to pursue higher education while accommodating personal and professional commitments. Leveraging advanced technologies, interactive online platforms, and virtual classrooms, we ensure that online learners receive the same quality of education and engagement as their on-campus counterparts. Our online programs span a wide range of subjects, making quality education more accessible to a global audience.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="Email" placeholder="Enter Email">
+                    <textarea  rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn blue-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>29</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>19</span>
+            </div>
+            <div>
+                <span>Software Engeneering</span>
+                <span>35</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!--------Footer-------->
+
+<section class="footer" >
+    <h4>About Us</h4>
+    <p>Dedicated to fostering knowledge, innovation, and personal growth.<br> We provide diverse learning experiences, shaping future leaders.</p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Byrone </p>
+
+</section>
+
+
+<!------Javascript for toggle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+    
+    </body>
+</html>

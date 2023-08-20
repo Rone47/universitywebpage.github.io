@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>University Website Design</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/dd439b35b1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html.html">ABOUT</a></li>
+                        <li><a href="course.html.html">COURSES</a></li>
+                        <li><a href="Blog.html.html">BLOG</a></li>
+                        <li><a href="Contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+
+
+        </section>
+
+<!---------Course-------->
+
+<section class="courses">
+    <h1>Courses We Offer</h1>
+    <p>Empowering diverse minds through comprehensive courses that drive lifelong success.</p>
+
+    <div class="row">
+        <div class="Course-col">
+            <h3>Diploma</h3>
+            <p>Practical diploma courses: Your gateway to specialized skills, career advancement, and real-world impact.</p>
+        </div>
+        <div class="Course-col">
+            <h3>Degree</h3>
+            <p>Explore horizons with our enriching degree courses, blending knowledge, skills, and innovation for a dynamic journey towards excellence and success.</p>
+        </div> 
+        <div class="Course-col">
+            <h3>Post Graduate</h3>
+            <p>Fuel your expertise through rigorous postgraduate courses, cultivating mastery, leadership, and pioneering contributions in your field of choice.</p>
+        </div>
+
+
+
+    </div>
+
+</section>
+
+<!-------Facilities------>
+
+<section class="Facilities">
+    <h1>Our Facilities</h1>
+    <p>State-of-the-art labs, sprawling campus, innovative spaces for collaborative learning.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/library.png">
+            <h3>Library</h3>
+            <p>The library stands as a treasure trove of knowledge, offering solace and resources for curious minds to explore, learn, and grow.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/basketball.png">
+            <h3>Games</h3>
+            <p>Where Dreams Take Flight: Unleash Your Potential on Our Vast University Playground!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/cafeteria.png">
+            <h3>Cafeteria</h3>
+            <p>University cafeteria fuels minds and bodies with diverse cuisines, fostering community and energizing academic journey.</p>
+        </div>
+    </div>
+
+
+</section>
+
+
+<!--------Footer-------->
+
+<section class="footer" >
+    <h4>About Us</h4>
+    <p>Dedicated to fostering knowledge, innovation, and personal growth.<br> We provide diverse learning experiences, shaping future leaders.</p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Byrone </p>
+
+</section>
+
+
+<!------Javascript for toggle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+    
+    </body>
+</html>
